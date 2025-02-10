@@ -29,7 +29,7 @@
 
         combo_RLGUI {
             timeout-ms = <50>;
-            key-positions = <39 41>;
+            key-positions = <40 41>;
             bindings = <&kp LGUI>;
         };
     };
