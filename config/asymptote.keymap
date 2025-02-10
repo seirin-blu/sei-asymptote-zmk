@@ -17,23 +17,7 @@
     quick-tap-ms = <400>;
 };
 
-/ {
-    combos {
-        compatible = "zmk,combos";
 
-        combo_LLGUI {
-            timeout-ms = <50>;
-            key-positions = <36 37>;
-            bindings = <&kp LGUI>;
-        };
-
-        combo_RLGUI {
-            timeout-ms = <50>;
-            key-positions = <39 41>;
-            bindings = <&kp LGUI>;
-        };
-    };
-};
 
 / {
     keymap {
